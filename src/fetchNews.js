@@ -10,7 +10,7 @@ const parser = new Parser({ timeout: 15000 });
 const SLOTS = [
   { tag: 'World',   icon: '🌍', feed: 'http://feeds.bbci.co.uk/news/world/rss.xml' },
   { tag: 'Science', icon: '🔬', feed: 'https://www.sciencedaily.com/rss/top/science.xml' },
-  { tag: 'Markets', icon: '📈', feed: 'http://feeds.bbci.co.uk/news/business/rss.xml' },
+  { tag: 'Markets', icon: '📈', feed: 'https://www.cnbc.com/id/20910258/device/rss/rss.html' },
   { tag: 'Tech',    icon: '💡', feed: 'http://feeds.bbci.co.uk/news/technology/rss.xml' },
   { tag: 'Sports',  icon: '🏆', feed: 'http://feeds.bbci.co.uk/sport/rss.xml' },
 ];
