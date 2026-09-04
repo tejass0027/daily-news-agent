@@ -1,0 +1,60 @@
+name: Daily News Brief
+
+on:
+  schedule:
+    # 12:30 UTC = 6:00 PM IST. GitHub's schedule runs in UTC only - adjust this if you
+    # change TIMEZONE below, or if IST daylight rules ever change (they don't today).
+    - cron: '30 12 * * *'
+  workflow_dispatch: {} # lets you trigger a run manually from the Actions tab, for testing
+
+permissions:
+  contents: write # needed so the workflow can commit the generated images back to the repo
+
+jobs:
+  post-daily-brief:
+    runs-on: ubuntu-latest
+    env:
+      HANDLE: ${{ vars.HANDLE }}
+      TIMEZONE: ${{ vars.TIMEZONE || 'Asia/Kolkata' }}
+      PUBLIC_IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/public
+      IG_BUSINESS_ID: ${{ secrets.IG_BUSINESS_ID }}
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+      TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
+      TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+      TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install color emoji font (so 🌍📈🏆 etc. render in the images)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-color-emoji
+          fc-cache -f -r
+
+      - name: Fetch today's news
+        run: npm run fetch-news
+
+      - name: Render carousel images
+        run: npm run render
+
+      - name: Commit generated images so they have a public URL
+        run: |
+          git config user.name "daily-news-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/
+          git commit -m "Daily brief images $(date -u +'%Y-%m-%d')" || echo "Nothing to commit"
+          git push
+
+      - name: Post to Instagram + X
+        run: npm run post-only
