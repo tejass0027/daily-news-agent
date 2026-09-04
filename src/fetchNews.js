@@ -9,7 +9,7 @@ const parser = new Parser({ timeout: 15000 });
 // One feed per carousel slot. Swap URLs any time - no API key required, these are public RSS feeds.
 const SLOTS = [
   { tag: 'World',   icon: '🌍', feed: 'http://feeds.bbci.co.uk/news/world/rss.xml' },
-  { tag: 'India',   icon: '🪔', feed: 'https://timesofindia.indiatimes.com/rssfeedstopstories.cms' },
+  { tag: 'Science', icon: '🔬', feed: 'https://www.sciencedaily.com/rss/top/science.xml' },
   { tag: 'Markets', icon: '📈', feed: 'http://feeds.bbci.co.uk/news/business/rss.xml' },
   { tag: 'Tech',    icon: '💡', feed: 'http://feeds.bbci.co.uk/news/technology/rss.xml' },
   { tag: 'Sports',  icon: '🏆', feed: 'http://feeds.bbci.co.uk/sport/rss.xml' },
@@ -46,7 +46,7 @@ function toBullets(description, title) {
     .map(s => s.trim())
     .filter(s => s.length > 12)
     .slice(0, 3)
-    .map(s => (s.length > 100 ? s.slice(0, 97).trimEnd() + '…' : s));
+    .map(s => (s.length > 100 ? s.slice(0, 100).replace(/\s+\S*$/, '').trimEnd() + '…' : s));
   return sentences.length ? sentences : [text.slice(0, 100)];
 }
 
