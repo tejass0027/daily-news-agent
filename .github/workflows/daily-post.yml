@@ -1,4 +1,9 @@
-name: Daily News Brief
+name: Daily News Brief (fetch + render only)
+
+# NOTE: This workflow only fetches news and renders + commits the carousel images.
+# It deliberately does NOT post to Instagram/X - Meta blocks GitHub Actions' cloud IP
+# ranges from publishing ("API access blocked"), even with a valid token. Actual posting
+# is a manual step you run from your own machine each day - see README.md.
 
 on:
   schedule:
@@ -11,18 +16,11 @@ permissions:
   contents: write # needed so the workflow can commit the generated images back to the repo
 
 jobs:
-  post-daily-brief:
+  render-daily-brief:
     runs-on: ubuntu-latest
     env:
       HANDLE: ${{ vars.HANDLE }}
       TIMEZONE: ${{ vars.TIMEZONE || 'Asia/Kolkata' }}
-      PUBLIC_IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/public
-      IG_BUSINESS_ID: ${{ secrets.IG_BUSINESS_ID }}
-      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-      TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
-      TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
-      TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-      TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -55,6 +53,3 @@ jobs:
           git add public/
           git commit -m "Daily brief images $(date -u +'%Y-%m-%d')" || echo "Nothing to commit"
           git push
-
-      - name: Post to Instagram + X
-        run: npm run post-only

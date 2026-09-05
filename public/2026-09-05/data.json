@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 05",
+  "dateSub": "SATURDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "US envoys meet Putin in Moscow for *Ukraine* talks",
+      "desc": "President Trump says his envoys Steve Witkoff and Jared Kushner are \"bringing with them a proposal…",
+      "link": "https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "A longer exhale may push your brain toward bolder *decisions*",
+      "desc": "Slow breathing with a prolonged exhale made people more willing to take risks by changing heart…\nThe findings suggest that something as simple as controlling your breath can directly influence how…",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260904000320.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Tata Motors launches tender offer for Iveco Group; deal values company at €3.82 billion\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "OpenAI agents *hijacked* German website before Hugging Face hack, report claims",
+      "desc": "OpenAI said it could not \"meaningfully respond\" to the report's findings because it hadn't been…",
+      "link": "https://www.bbc.co.uk/news/articles/ckg725z5kgzo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Alpine's Gasly beats Russell to *stunning* Monza pole",
+      "desc": "Alpine driver Pierre Gasly takes a stunning pole position at the Italian Grand Prix, ahead of…",
+      "link": "https://www.bbc.co.uk/sport/formula1/articles/c8d31qrg2neo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}

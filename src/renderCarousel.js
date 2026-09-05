@@ -52,6 +52,9 @@ export async function renderCarousel(stories) {
       files.push(filePath);
       console.log(`[renderCarousel] wrote ${filePath}`);
     }
+    // Committed alongside the images so any machine that pulls the repo has the exact
+    // captions/handle/date that match today's rendered PNGs (data/latest.json is gitignored).
+    writeFileSync(`${outDir}/data.json`, JSON.stringify(data, null, 2));
     return { files, iso, data };
   } finally {
     await browser.close();
