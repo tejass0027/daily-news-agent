@@ -4,21 +4,44 @@ import { dirname } from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const parser = new Parser({ timeout: 15000 });
+const parser = new Parser({
+  timeout: 15000,
+  headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36' },
+});
 
 // One feed per carousel slot. Swap URLs any time - no API key required, these are public RSS feeds.
 const SLOTS = [
   { tag: 'World',   icon: '🌍', feed: 'http://feeds.bbci.co.uk/news/world/rss.xml' },
   { tag: 'Science', icon: '🔬', feed: 'https://www.sciencedaily.com/rss/top/science.xml' },
-  { tag: 'Markets', icon: '📈', feed: 'https://www.cnbc.com/id/20910258/device/rss/rss.html' },
+  { tag: 'Markets', icon: '📈', markets: true },
   { tag: 'Tech',    icon: '💡', feed: 'http://feeds.bbci.co.uk/news/technology/rss.xml' },
   { tag: 'Sports',  icon: '🏆', feed: 'http://feeds.bbci.co.uk/sport/rss.xml' },
 ];
 
+// Markets slide pulls one stock-market headline from India and one from the US, instead of
+// a single general business story.
+const MARKET_FEEDS = {
+  india: 'https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms',
+  us: 'https://www.marketwatch.com/rss/marketpulse',
+};
+
 const STOPWORDS = new Set(['about','after','their','there','which','would','could','should','where','while','among','under','being','these','those','other','still','again','first','world']);
 
+const HTML_ENTITIES = {
+  '&nbsp;': ' ', '&amp;': '&', '&quot;': '"', '&apos;': "'",
+  '&#39;': "'", '&#39': "'", '&lsquo;': '‘', '&rsquo;': '’',
+  '&ldquo;': '“', '&rdquo;': '”', '&mdash;': '—', '&ndash;': '–',
+};
+
 function stripHtml(s = '') {
-  return s.replace(/<[^>]*>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
+  let text = s.replace(/<[^>]*>/g, ' ');
+  text = text.replace(/&#39;s/g, "'s"); // common feed bug: apostrophe entity missing its semicolon
+  for (const [entity, char] of Object.entries(HTML_ENTITIES)) {
+    text = text.split(entity).join(char);
+  }
+  text = text.replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)));
+  text = text.replace(/#(\d{2,4});/g, (_, code) => String.fromCharCode(Number(code))); // some feeds drop the leading "&"
+  return text.replace(/\s+/g, ' ').trim();
 }
 
 function highlightHeadline(title) {
@@ -36,6 +59,10 @@ function highlightHeadline(title) {
   return words.join(' ');
 }
 
+function truncateWords(text, maxLen) {
+  return text.length > maxLen ? text.slice(0, maxLen).replace(/\s+\S*$/, '').trimEnd() + '…' : text;
+}
+
 function toBullets(description, title) {
   const text = stripHtml(description);
   if (!text || text.length < 15 || text.toLowerCase() === title.toLowerCase().trim()) {
@@ -46,11 +73,35 @@ function toBullets(description, title) {
     .map(s => s.trim())
     .filter(s => s.length > 12)
     .slice(0, 3)
-    .map(s => (s.length > 100 ? s.slice(0, 100).replace(/\s+\S*$/, '').trimEnd() + '…' : s));
+    .map(s => truncateWords(s, 100));
   return sentences.length ? sentences : [text.slice(0, 100)];
 }
 
+async function fetchMarketsSlot(slot) {
+  const [indiaRes, usRes] = await Promise.allSettled([
+    parser.parseURL(MARKET_FEEDS.india),
+    parser.parseURL(MARKET_FEEDS.us),
+  ]);
+  const indiaItem = indiaRes.status === 'fulfilled' ? indiaRes.value.items?.[0] : null;
+  const usItem = usRes.status === 'fulfilled' ? usRes.value.items?.[0] : null;
+
+  if (!indiaItem) console.error(`[fetchNews] Failed to fetch India markets feed:`, indiaRes.reason?.message);
+  if (!usItem) console.error(`[fetchNews] Failed to fetch US markets feed:`, usRes.reason?.message);
+
+  const indiaLine = indiaItem ? truncateWords(stripHtml(indiaItem.title), 90) : 'India market update unavailable today.';
+  const usLine = usItem ? truncateWords(stripHtml(usItem.title), 90) : 'US market update unavailable today.';
+
+  return {
+    icon: slot.icon,
+    tag: slot.tag,
+    title: 'India *and* US markets today',
+    desc: [`India: ${indiaLine}`, `US: ${usLine}`].join('\n'),
+    link: '',
+  };
+}
+
 async function fetchSlot(slot) {
+  if (slot.markets) return fetchMarketsSlot(slot);
   try {
     const feed = await parser.parseURL(slot.feed);
     const item = feed.items?.[0];
