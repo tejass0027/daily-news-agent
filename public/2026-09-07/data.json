@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 07",
+  "dateSub": "MONDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Germany's far-right AfD says *'democracy* demands' parties work with them after state election win",
+      "desc": "The far-right party is trying to form a government in the state after falling three seats short of…",
+      "link": "https://www.bbc.co.uk/news/articles/cpd0113082eo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Popular brain *supplement* linked to shorter lifespan in men",
+      "desc": "A large study involving more than 270,000 people has linked higher blood levels of the amino acid…\nUsing both observational data and genetic analysis, researchers found that elevated tyrosine could…\nTyrosine is found naturally in protein-rich foods and is also sold as a supplement for boosting…",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260904000330.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: RBI easing drives Indian companies’ $7.70 billion overseas borrowing\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Grindr to pay £26m to settle claims it *allegedly* shared users' HIV status",
+      "desc": "The long-running claim alleges Grindr breached UK privacy laws by sharing data with third parties.",
+      "link": "https://www.bbc.co.uk/news/articles/cn8e63qdqwzo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Can Kane buck *history* and win Ballon d'Or?",
+      "desc": "History suggests Ballon d’Or winners come from those who have recently lifted one of football's…\nCan Harry Kane become a rare exception?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm2gee75vz7o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
