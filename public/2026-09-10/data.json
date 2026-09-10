@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 10",
+  "dateSub": "THURSDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Trump says every adult American will get $5,000 if *Republicans* win midterms",
+      "desc": "Speaking at a party convention, the US president gave no details on how the plan would work or…",
+      "link": "https://www.bbc.co.uk/news/articles/c62kzr1jg0jo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Scientists find a *bone-building* switch that could fight osteoporosis",
+      "desc": "An experimental compound called AP503 significantly strengthened bones in mice by activating…\nBecause the same treatment has also been linked to stronger muscles, researchers see intriguing…",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260909005305.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Ahead of Market: 10 things that will decide stock market action on Friday\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "UK needs new laws for AI in *healthcare,* says watchdog",
+      "desc": "The technology will soon be routinely used within the NHS, MHRA chief Lawrence Tallon tells the BBC.",
+      "link": "https://www.bbc.co.uk/news/articles/c3wjn3pl63xo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Arsenal close to *finalising* new contract for Arteta",
+      "desc": "Mikel Arteta is believed to be close to finalising a new contract with Premier League champions…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cgrvq2xp8dwo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
