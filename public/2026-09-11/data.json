@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 11",
+  "dateSub": "FRIDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Anthropic blocks possible attempt to use AI to make *biological* weapons",
+      "desc": "The revelations in Anthropic's threat intelligence report come after a former top researcher at the…",
+      "link": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Wasps are *disappearing* this summer, and scientists are worried",
+      "desc": "Britain’s wasps have become mysteriously scarce this summer, and scientists suspect an unusual…\nEven the wasps that remain appear unusually small, potentially offering a glimpse of how extreme…",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260911003901.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: US stocks today: US stocks open higher after August inflation report\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Does this AI *comic* make you laugh?",
+      "desc": "Comedian Garrett Millerick has created an AI avatar based on his own material.\nIs it any good?",
+      "link": "https://www.bbc.co.uk/news/videos/c5yjk63ww1ro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Pacesetter *Russell* says Madrid 'has less margin than Monaco'",
+      "desc": "George Russell goes quickest in first practice for the Spanish Grand Prix - hours after saying the…",
+      "link": "https://www.bbc.co.uk/sport/formula1/articles/cew9nr2kx20o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
