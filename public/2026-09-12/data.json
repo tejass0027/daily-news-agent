@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 12",
+  "dateSub": "SATURDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Saudi Arabia shuts key oil *pipeline* after drone attack launched from Iraq",
+      "desc": "Iraq removes a military commander and opens investigations into the attack that came from an area…",
+      "link": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Scientists find *Ozempic* may slow aging itself",
+      "desc": "Semaglutide helped older healthy mice live longer while improving memory, muscle function, blood…\nIts effects went beyond those seen with calorie restriction, raising the possibility that GLP-1…",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260911214238.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: HDFC Bank submits two candidates to RBI for next CEO\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Anthropic boss Dario Amodei calls for AI *development* to slow down",
+      "desc": "Amodei's call comes amid growing concerns that AI models may become able to inflict serious damage…",
+      "link": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "England in *better* place than start of summer - Root",
+      "desc": "Captain Joe Root says England are in a better place at the end of their tumultuous summer and is…",
+      "link": "https://www.bbc.co.uk/sport/cricket/articles/c0klpz5k383o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
