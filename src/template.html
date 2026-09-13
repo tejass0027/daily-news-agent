@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Daily Brief — Render Target</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Archivo+Black&display=swap');
+
+  :root{
+    --ink:#10131A;
+    --paper:#FFF7EC;
+    --bolt:#FF3D5A;
+    --zap:#FFC93C;
+    --signal:#1FD6A7;
+    --deep:#3A2EFF;
+  }
+
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{min-height:100%; background:#16161d;}
+  body{ font-family:'Space Grotesk', sans-serif; }
+
+  /* every card renders at native 1080x1080, off the visible edge, one at a time */
+  .card{
+    width:1080px; height:1080px;
+    position:absolute; top:0; left:0;
+    overflow:hidden; border-radius:0;
+    font-family:'Space Grotesk',sans-serif;
+  }
+
+  /* ======= SLIDE 1 — COVER ======= */
+  .cover-card{
+    background:
+      radial-gradient(circle at 85% 8%, var(--zap) 0%, transparent 38%),
+      radial-gradient(circle at 5% 95%, var(--signal) 0%, transparent 42%),
+      var(--deep);
+    color:var(--paper);
+    display:flex; flex-direction:column;
+    justify-content:space-between;
+    position:relative;
+  }
+  .cover-globe{
+    position:absolute; right:-40px; top:50%; transform:translateY(-50%);
+    font-size:520px; line-height:1; z-index:1; opacity:0.45;
+    user-select:none; pointer-events:none;
+  }
+  .cover-ring{
+    position:absolute; left:-100px; bottom:-100px; width:480px; height:480px;
+    border-radius:50%; border:44px solid rgba(255,247,236,0.1);
+    z-index:1; pointer-events:none;
+  }
+  .cover-ring2{
+    position:absolute; left:-40px; bottom:-40px; width:300px; height:300px;
+    border-radius:50%; border:28px solid rgba(31,214,167,0.18);
+    z-index:1; pointer-events:none;
+  }
+  .cover-bg-num{
+    position:absolute; left:-10px; top:38%;
+    font-family:'Archivo Black',sans-serif;
+    font-size:480px; line-height:1; color:rgba(255,247,236,0.04);
+    z-index:0; user-select:none; pointer-events:none; letter-spacing:-20px;
+  }
+  .cover-ticker{
+    position:relative; z-index:2; background:var(--bolt);
+    padding:13px 64px; display:flex; align-items:center; gap:20px; overflow:hidden;
+  }
+  .ticker-label{
+    font-family:'Archivo Black',sans-serif; font-size:24px; letter-spacing:2px;
+    white-space:nowrap; flex:0 0 auto; background:var(--zap); color:var(--ink);
+    padding:4px 12px; border-radius:6px;
+  }
+  .ticker-text{
+    font-family:'Space Grotesk',sans-serif; font-size:24px; font-weight:600;
+    white-space:nowrap; opacity:0.95; letter-spacing:0.5px;
+  }
+  .cover-stats{
+    position:relative; z-index:2; padding:0 64px;
+    display:flex; gap:14px; align-items:center; margin-top:20px;
+  }
+  .stat-pill{
+    background:rgba(255,247,236,0.1); border:1.5px solid rgba(255,247,236,0.22);
+    border-radius:100px; padding:11px 22px; display:flex; align-items:center; gap:8px;
+    font-size:26px; font-weight:700;
+  }
+  .stat-pill .stat-label{ opacity:0.7; font-size:22px; font-weight:500; }
+  .cover-dotgrid{
+    position:absolute; inset:0; z-index:0;
+    background-image:radial-gradient(rgba(255,247,236,0.12) 2.5px, transparent 2.5px);
+    background-size:30px 30px;
+    mask-image:radial-gradient(circle at 20% 50%, black 0%, transparent 60%);
+    -webkit-mask-image:radial-gradient(circle at 20% 50%, black 0%, transparent 60%);
+  }
+  .cover-stripe{
+    position:absolute; top:-10%; left:62%; width:220px; height:140%;
+    background:var(--bolt); transform:rotate(18deg); z-index:0; opacity:0.95;
+  }
+  .cover-top{
+    position:relative; z-index:2; padding:56px 64px 0 64px;
+    display:flex; justify-content:space-between; align-items:flex-start;
+  }
+  .brand-block{ display:flex; flex-direction:column; gap:16px; }
+  .brand-mark{
+    font-family:'Archivo Black',sans-serif; font-size:34px; letter-spacing:-1px; line-height:1;
+  }
+  .brand-mark span{ color:var(--zap); }
+  .brand-date-row{ display:flex; align-items:center; gap:14px; }
+  .cover-date-badge{
+    background:var(--paper); color:var(--ink);
+    font-family:'Archivo Black',sans-serif; font-size:36px; padding:16px 30px;
+    border-radius:100px; line-height:1.2; box-shadow:6px 6px 0 var(--bolt);
+    display:flex; flex-direction:column;
+  }
+  .cover-date-badge small{
+    font-family:'Space Grotesk',sans-serif; font-weight:500; font-size:20px;
+    letter-spacing:1.5px; opacity:0.6;
+  }
+  .edition-tag{
+    background:var(--bolt); color:#fff; font-family:'Archivo Black',sans-serif;
+    font-size:22px; padding:12px 22px; border-radius:8px; letter-spacing:1px;
+    text-transform:uppercase;
+  }
+  .top-right{ display:flex; flex-direction:column; align-items:flex-end; gap:12px; }
+  .live-badge{
+    display:flex; align-items:center; gap:8px; background:rgba(255,61,90,0.18);
+    border:1.5px solid var(--bolt); border-radius:100px; padding:8px 18px;
+    font-family:'Archivo Black',sans-serif; font-size:24px; color:var(--paper); letter-spacing:1px;
+  }
+  .live-dot{ width:10px; height:10px; border-radius:50%; background:var(--bolt); }
+  .swipe-center-btn{
+    position:absolute; right:44px; top:50%; transform:translateY(-50%); z-index:10;
+    display:inline-flex; flex-direction:row; align-items:center; gap:14px;
+    background:#000; color:#fff; font-family:'Archivo Black',sans-serif;
+    font-size:30px; letter-spacing:1px; padding:22px 36px; border-radius:100px;
+    box-shadow:4px 4px 20px rgba(0,0,0,0.5);
+  }
+  .swipe-arrow{
+    width:44px; height:44px; background:var(--zap); border-radius:50%;
+    display:flex; align-items:center; justify-content:center; font-size:22px; color:var(--ink);
+  }
+  .cover-mid{
+    position:relative; z-index:2; padding:24px 64px 0 64px;
+    flex:1; display:flex; flex-direction:column; justify-content:center; gap:0;
+  }
+  .cover-tagline{
+    font-size:26px; font-weight:600; letter-spacing:3px; text-transform:uppercase;
+    opacity:0.6; margin-bottom:14px; display:flex; align-items:center; gap:10px;
+  }
+  .cover-tagline::before{
+    content:''; display:block; width:32px; height:3px; background:var(--zap); border-radius:2px;
+  }
+  .cover-headline{
+    font-family:'Archivo Black',sans-serif; font-size:118px; line-height:0.92;
+    letter-spacing:-3px; max-width:820px;
+  }
+  .cover-headline em{
+    font-style:normal; background:var(--zap); color:var(--ink); padding:0 14px;
+    box-decoration-break:clone; -webkit-box-decoration-break:clone;
+  }
+  .cover-divider{ width:100%; height:2px; background:rgba(255,247,236,0.12); margin:22px 0 0 0; }
+  .cover-bottom{
+    position:relative; z-index:2; padding:16px 64px 44px 64px;
+    display:flex; justify-content:space-between; align-items:center;
+  }
+  .cover-stories-preview{ display:flex; gap:12px; align-items:center; }
+  .preview-pill{
+    display:flex; flex-direction:column; align-items:center; gap:6px;
+    background:rgba(16,19,26,0.5); border:1.5px solid rgba(255,247,236,0.2);
+    border-radius:18px; padding:12px 14px; color:var(--paper); min-width:88px; text-align:center;
+  }
+  .preview-pill .pill-icon{ font-size:36px; }
+  .preview-pill .pill-label{ font-size:20px; font-weight:700; opacity:0.85; }
+  .cover-handle-block{ display:flex; flex-direction:column; align-items:flex-end; gap:6px; }
+  .cover-handle{ font-family:'Archivo Black',sans-serif; font-size:32px; opacity:0.85; }
+  .follow-hint{ font-size:20px; opacity:0.5; font-weight:500; letter-spacing:0.5px; }
+
+  /* ======= STORY SLIDES ======= */
+  .story-card{ color:var(--paper); display:flex; flex-direction:column; }
+  .story-card-fallback{
+    position:absolute; inset:0; z-index:0;
+    background:
+      radial-gradient(circle at 80% 10%, var(--zap) 0%, transparent 40%),
+      radial-gradient(circle at 10% 90%, var(--signal) 0%, transparent 40%),
+      var(--deep);
+  }
+  .story-stripe{
+    position:absolute; top:-10%; right:8%; width:140px; height:140%;
+    background:var(--bolt); transform:rotate(18deg); z-index:2; opacity:0.5;
+  }
+  .story-top{
+    position:relative; z-index:3; padding:44px 52px 0 52px;
+    display:flex; justify-content:space-between; align-items:center;
+  }
+  .story-brand{
+    font-family:'Archivo Black',sans-serif; font-size:34px; letter-spacing:-0.5px; color:var(--paper);
+  }
+  .story-brand span{ color:var(--zap); }
+  .story-num{
+    width:72px; height:72px; border-radius:50%; background:var(--bolt);
+    border:3px solid rgba(255,247,236,0.3); display:flex; flex-direction:column;
+    align-items:center; justify-content:center; font-family:'Archivo Black',sans-serif; color:#fff;
+  }
+  .story-num .n{ font-size:32px; line-height:1; }
+  .story-num .of{ font-size:13px; opacity:0.8; }
+  .content-accent-bar{ display:flex; gap:8px; margin-bottom:4px; }
+  .accent-seg{ height:8px; border-radius:4px; }
+  .accent-seg-1{ background:#FF3D5A; width:80px; }
+  .accent-seg-2{ background:#FFC93C; width:40px; }
+  .accent-seg-3{ background:#1FD6A7; width:24px; }
+  .content-bg-num{
+    position:absolute; right:30px; top:20px;
+    font-family:'Arial Black', sans-serif; font-size:200px; font-weight:900; line-height:1;
+    color:rgba(16,19,26,0.04); user-select:none; pointer-events:none; z-index:0;
+  }
+  .deco-circles{ position:absolute; top:24px; right:28px; display:flex; gap:10px; align-items:center; z-index:1; }
+  .deco-circle{ border-radius:50%; }
+  .deco-c1{ width:22px; height:22px; background:#FF3D5A; opacity:0.18; }
+  .deco-c2{ width:16px; height:16px; background:#FFC93C; opacity:0.25; }
+  .deco-c3{ width:10px; height:10px; background:#1FD6A7; opacity:0.3; }
+  .story-content{
+    position:relative; z-index:3; margin-top:auto; background:#fff;
+    border-radius:32px 32px 0 0; padding:40px 52px 52px 52px;
+    display:flex; flex-direction:column; gap:18px; overflow:hidden;
+  }
+  .story-tag-row{ display:flex; align-items:center; gap:14px; margin-bottom:4px; }
+  .story-icon{
+    width:60px; height:60px; border-radius:50%; background:rgba(16,19,26,0.08);
+    display:flex; align-items:center; justify-content:center; font-size:30px;
+  }
+  .story-tag{
+    font-family:'Archivo Black',sans-serif; font-size:22px; letter-spacing:1px;
+    padding:10px 20px; border-radius:10px; text-transform:uppercase; color:var(--ink);
+  }
+  .story-tag.world{background:var(--signal);}
+  .story-tag.india{background:#FFB84D;}
+  .story-tag.biz{background:var(--zap);}
+  .story-tag.tech{background:#9AD8FF;}
+  .story-tag.science{background:#FF9A6B;}
+  .story-tag.sport{background:#D9A6FF;}
+  .story-title{
+    font-family:'Archivo Black',sans-serif; font-size:54px; line-height:1.0;
+    letter-spacing:-1px; color:#10131A;
+  }
+  .story-title em{
+    font-style:normal; background:var(--zap); color:var(--ink); padding:0 10px;
+    box-decoration-break:clone; -webkit-box-decoration-break:clone;
+  }
+  .story-desc{
+    font-size:28px; font-weight:500; color:#10131A; opacity:0.82;
+    line-height:1.4; max-width:900px; display:flex; flex-direction:column; gap:14px;
+  }
+  .bullet-line{ display:flex; align-items:flex-start; gap:14px; }
+  .bullet-dot{ color:var(--bolt); font-size:32px; line-height:1.3; flex:0 0 auto; font-weight:900; }
+  .story-footer{
+    display:flex; justify-content:space-between; align-items:center;
+    padding-top:8px; border-top:2px solid rgba(16,19,26,0.08);
+  }
+  .story-handle{ font-family:'Archivo Black',sans-serif; font-size:22px; color:#10131A; opacity:0.45; }
+  .swipe-hint-text{ font-size:22px; font-weight:700; color:#10131A; opacity:0.6; display:flex; align-items:center; gap:8px; }
+</style>
+</head>
+<body>
+
+<div id="stage"></div>
+
+<script>
+  const TAG_CLASSES = {
+    'World':'world','India':'india','Markets':'biz','Tech':'tech',
+    'Science':'science','Sports':'sport','Wild card':'science'
+  };
+
+  function coverHTML(d){
+    const headlineHTML = d.coverHeadline.replace(/\*(.+?)\*/g,'<em>$1</em>');
+    const pills = d.stories.map(s=>`<div class="preview-pill"><span class="pill-icon">${s.icon}</span><span class="pill-label">${s.tag}</span></div>`).join('');
+    return `
+      <div class="card cover-card" id="card-0">
+        <div class="cover-dotgrid"></div>
+        <div class="cover-stripe"></div>
+        <div class="cover-globe">🌍</div>
+        <div class="cover-ring"></div>
+        <div class="cover-ring2"></div>
+        <div class="cover-bg-num">05</div>
+        <div class="cover-top">
+          <div class="brand-block">
+            <div class="brand-mark">DAILY<span>BRIEF</span></div>
+            <div class="brand-date-row">
+              <div class="cover-date-badge"><span>${d.dateMain}</span><small>${d.dateSub}</small></div>
+              <div class="edition-tag">DAILY EDITION</div>
+            </div>
+          </div>
+          <div class="top-right"><div class="live-badge"><div class="live-dot"></div> LIVE NOW</div></div>
+        </div>
+        <div class="swipe-center-btn">SWIPE <div class="swipe-arrow">→</div></div>
+        <div class="cover-ticker">
+          <span class="ticker-label">BREAKING</span>
+          <span class="ticker-text">5 stories from around the world — swipe to read today's top news →</span>
+        </div>
+        <div class="cover-mid">
+          <div class="cover-tagline">Today's top stories</div>
+          <div class="cover-headline">${headlineHTML}</div>
+          <div class="cover-divider"></div>
+        </div>
+        <div class="cover-stats">
+          <div class="stat-pill">📰 <span>5 Stories</span> <span class="stat-label">today</span></div>
+          <div class="stat-pill">⚡ <span>60 sec</span> <span class="stat-label">read</span></div>
+          <div class="stat-pill">🌐 <span>World</span> <span class="stat-label">news</span></div>
+        </div>
+        <div class="cover-bottom">
+          <div class="cover-stories-preview">${pills}</div>
+          <div class="cover-handle-block">
+            <div class="cover-handle">${d.handle}</div>
+            <div class="follow-hint">Follow for daily news</div>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  function storyHTML(i, s, handle){
+    const tagCls = TAG_CLASSES[s.tag] || 'world';
+    const titleHTML = s.title.replace(/\*(.+?)\*/g,'<em>$1</em>');
+    const isLast = i === 4;
+    const bullets = s.desc.split('\n').filter(l=>l.trim())
+      .map(l=>`<div class="bullet-line"><span class="bullet-dot">•</span><span>${l}</span></div>`).join('');
+    return `
+      <div class="card story-card" id="card-${i+1}">
+        <div class="story-card-fallback"></div>
+        <div class="story-stripe"></div>
+        <div class="story-top">
+          <div class="story-brand">DAILY<span>BRIEF</span></div>
+          <div class="story-num"><div class="n">${i+1}</div><div class="of">/ 5</div></div>
+        </div>
+        <div class="story-content">
+          <div class="content-accent-bar">
+            <div class="accent-seg accent-seg-1"></div>
+            <div class="accent-seg accent-seg-2"></div>
+            <div class="accent-seg accent-seg-3"></div>
+          </div>
+          <div class="content-bg-num">${String(i+1).padStart(2,'0')}</div>
+          <div class="deco-circles">
+            <div class="deco-circle deco-c1"></div>
+            <div class="deco-circle deco-c2"></div>
+            <div class="deco-circle deco-c3"></div>
+          </div>
+          <div class="story-tag-row">
+            <div class="story-icon">${s.icon}</div>
+            <div class="story-tag ${tagCls}">${s.tag}</div>
+          </div>
+          <div class="story-title">${titleHTML}</div>
+          <div class="story-desc">${bullets}</div>
+          <div class="story-footer">
+            <div class="story-handle">${handle}</div>
+            <div class="swipe-hint-text">${isLast ? '🔁 Follow for more' : 'NEXT →'}</div>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  // Called from Puppeteer with the day's data.
+  window.__renderBrief = function(data){
+    const stage = document.getElementById('stage');
+    let html = coverHTML(data);
+    data.stories.forEach((s,i)=>{ html += storyHTML(i, s, data.handle); });
+    stage.innerHTML = html;
+  };
+
+  // Called from Puppeteer once per slide index (0 = cover, 1-5 = stories).
+  window.__captureSlide = async function(index){
+    const card = document.getElementById(`card-${index}`);
+    if(!card) throw new Error('card not found: ' + index);
+    const canvas = await html2canvas(card, { backgroundColor:null, scale:2, width:1080, height:1080, useCORS:true });
+    return canvas.toDataURL('image/png');
+  };
+</script>
+</body>
+</html>

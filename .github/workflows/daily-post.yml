@@ -1,0 +1,55 @@
+name: Daily News Brief (fetch + render only)
+
+# NOTE: This workflow only fetches news and renders + commits the carousel images.
+# It deliberately does NOT post to Instagram/X - Meta blocks GitHub Actions' cloud IP
+# ranges from publishing ("API access blocked"), even with a valid token. Actual posting
+# is a manual step you run from your own machine each day - see README.md.
+
+on:
+  schedule:
+    # 12:30 UTC = 6:00 PM IST. GitHub's schedule runs in UTC only - adjust this if you
+    # change TIMEZONE below, or if IST daylight rules ever change (they don't today).
+    - cron: '30 12 * * *'
+  workflow_dispatch: {} # lets you trigger a run manually from the Actions tab, for testing
+
+permissions:
+  contents: write # needed so the workflow can commit the generated images back to the repo
+
+jobs:
+  render-daily-brief:
+    runs-on: ubuntu-latest
+    env:
+      HANDLE: ${{ vars.HANDLE }}
+      TIMEZONE: ${{ vars.TIMEZONE || 'Asia/Kolkata' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install color emoji font (so 🌍📈🏆 etc. render in the images)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-color-emoji
+          fc-cache -f -r
+
+      - name: Fetch today's news
+        run: npm run fetch-news
+
+      - name: Render carousel images
+        run: npm run render
+
+      - name: Commit generated images so they have a public URL
+        run: |
+          git config user.name "daily-news-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/
+          git commit -m "Daily brief images $(date -u +'%Y-%m-%d')" || echo "Nothing to commit"
+          git push

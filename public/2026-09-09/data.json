@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 09",
+  "dateSub": "WEDNESDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Germany's Merz attacks AfD in stormy debate after *far-right* election win",
+      "desc": "Germany's chancellor clashes with AfD leader Alice Weidel, saying her migration policy amounts to…",
+      "link": "https://www.bbc.co.uk/news/articles/c98679wr78do?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Scientists find a *bone-building* switch that could fight osteoporosis",
+      "desc": "An experimental compound called AP503 significantly strengthened bones in mice by activating…\nBecause the same treatment has also been linked to stronger muscles, researchers see intriguing…",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260909005305.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: RBL Bank raises $350 million in debut international bond sale\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Anthropic *researcher* believes more than 10% chance AI 'could kill all humans'",
+      "desc": "It is the latest in a series of increasing warnings about the safety threat posed by artificial…",
+      "link": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "What next for LIV Golf's star players, and its fight for *survival?*",
+      "desc": "Golf's main tours are expecting a lot of interest in rejoining from LIV golfers – but the path back…",
+      "link": "https://www.bbc.co.uk/sport/golf/articles/c0re742dpw1o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}

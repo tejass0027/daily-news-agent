@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 08",
+  "dateSub": "TUESDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Carney says US trade war 'will come at a cost' as Canada *strikes* back on tariffs",
+      "desc": "Canada's levies - as high as 50% - will apply to nearly $20bn of US products, from steel to…",
+      "link": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Scientists discover a powerful new antivenom hidden in *rattlesnake* blood",
+      "desc": "Researchers discovered that combinations of toxin-blocking proteins naturally found in rattlesnake…\nIn lab tests, the mixtures were about 10 times more potent than a current commercial antivenom,…",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260907201605.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Ahead of Market: 10 things that will decide stock market action on Wednesday\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Scammers demand ransoms from *Instagram* users over fake copyright claims",
+      "desc": "Users say they are losing money or risk having their accounts suspended because Meta struggles to…",
+      "link": "https://www.bbc.co.uk/news/articles/cjw54ww73qjo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Favourite Kane makes Ballon d'Or *shortlist*",
+      "desc": "Bayern Munich striker Harry Kane is one of three England players nominated for the 2026 Ballon d'Or…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c62m82qqm87o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}

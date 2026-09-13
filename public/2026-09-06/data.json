@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 06",
+  "dateSub": "SUNDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "US envoys hold talks with *Zelensky* in Kyiv after meeting Putin",
+      "desc": "Steve Witkoff tells reporters the US team feels \"encouraged\" by a \"substantive\" and important…",
+      "link": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "A *mysterious* signal around Earth could be dark matter",
+      "desc": "Scientists used Earth’s magnetic field and atmosphere as a planet-sized detector to search for some…\nThe approach dramatically improved limits on ultralight axions and uncovered several intriguing…",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260904000328.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Market Trading Guide: Emcure Pharma among 2 stock recommendations for Monday\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "OpenAI agents *hijacked* German website before Hugging Face hack, report claims",
+      "desc": "OpenAI said it could not \"meaningfully respond\" to the report's findings because it hadn't been…",
+      "link": "https://www.bbc.co.uk/news/articles/ckg725z5kgzo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Antonelli takes *stunning* Monza win from 19th on grid",
+      "desc": "Mercedes' Kimi Antonelli takes a breathtaking victory in an incident-packed Italian Grand Prix from…",
+      "link": "https://www.bbc.co.uk/sport/formula1/articles/clyl3l325g6o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}

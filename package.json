@@ -1,0 +1,20 @@
+{
+  "name": "daily-news-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Free daily AI news brief bot - fetches global + India news via RSS, renders an Instagram-style carousel, and posts it to Instagram and X (Twitter) automatically.",
+  "type": "module",
+  "scripts": {
+    "fetch-news": "node src/fetchNews.js",
+    "render": "node src/renderCarousel.js",
+    "post": "node src/index.js",
+    "post-only": "node src/postOnly.js",
+    "test-render": "node src/fetchNews.js && node src/renderCarousel.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "puppeteer": "^23.9.0",
+    "rss-parser": "^3.13.0",
+    "twitter-api-v2": "^1.18.2"
+  }
+}
