@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 13",
+  "dateSub": "SUNDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Russia struck train near Poland border shortly after Boris Johnson and top European *officials* passed through",
+      "desc": "The former UK PM said \"I don't know what warped logic drove Putin to blow up a stationary Ukrainian…",
+      "link": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "AI *uncovers* hidden Ozempic side effects across 400,000 Reddit posts",
+      "desc": "AI analysis of 400,000 Reddit posts found that users of drugs such as Ozempic, Wegovy, Mounjaro,…\nResearchers cannot say the medications caused these problems, but the patterns may reveal…",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260912222856.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: How Warren Buffett's 'big error' may finally be paying off after a decade\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Trump downplays AI risks after dire expert warnings and calls to slow *development* down",
+      "desc": "The US President said \"negative forces\" were airing concerns about \"things that won't happen\".",
+      "link": "https://www.bbc.co.uk/news/articles/c7v48vp31mdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Europe's big names shine in *Solheim* Cup win over US",
+      "desc": "Charley Hull gets the ball rolling as Europe's big guns finally came to the fore in Sunday's…",
+      "link": "https://www.bbc.co.uk/sport/golf/articles/c0m3pnlyl9vo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
