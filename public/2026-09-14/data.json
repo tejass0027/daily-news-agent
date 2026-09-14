@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 14",
+  "dateSub": "MONDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "China criticises idea it is in 'malicious *competition'* over AI",
+      "desc": "It follows the Anthropic CEO's calls for a slowdown in AI development - but in a way that prevents…",
+      "link": "https://www.bbc.co.uk/news/articles/cn8me133119o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Cancer is rising in younger adults. Faster *biological* aging may help explain why",
+      "desc": "Cancer rates are rising in adults under 55, and new research suggests accelerated biological aging…\nScientists found that people from more recent generations tended to have bodies that appeared…\nGreater biological age acceleration was linked to a higher risk of early onset cancers, with…",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260913082200.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: US Senate Republicans release new crypto bill text ahead of critical vote\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Valve's Steam Frame is *excellent* - but at over £1,000 is VR still too expensive?",
+      "desc": "The BBC's Tom Gerken is hands-on with the latest virtual reality headset.",
+      "link": "https://www.bbc.co.uk/news/articles/cn8m1113ym1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "'This is what women in sport look like' - Hunt leads *response* to Sweeney advert",
+      "desc": "British sprinter Amy Hunt is among an array of female athletes criticising the controversial…",
+      "link": "https://www.bbc.co.uk/sport/athletics/articles/c9dw905jw5no?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
