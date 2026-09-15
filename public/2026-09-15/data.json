@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 15",
+  "dateSub": "TUESDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Denmark says Russian warship fired flares at military *helicopter*",
+      "desc": "The Danish prime minister has accused Russia of \"reckless\" behaviour, while the Kremlin is yet to…",
+      "link": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Smelling *chocolate* helped men complete more reps without feeling more tired",
+      "desc": "Simply smelling chocolate helped men complete more leg extension repetitions without making the…\nThe researchers think familiar food aromas may influence appetite and motivation by making the…",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260914102445.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: US 10-year Treasury bonds hit 19-year high ahead of Fed rate decision\nUS: US market update unavailable today.",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Pubs in *England* and Wales to allow digital ID apps to prove age",
+      "desc": "New rules introduced on Tuesday mean establishments will be able to accept digital ID apps…",
+      "link": "https://www.bbc.co.uk/news/articles/cm4gl6j53w19o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "VAR did not even consider if *Fernandez* was offside - Webb",
+      "desc": "Referees' chief Howard Webb has admitted that the video assistant referee (VAR) did not even…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cv4g5rp56p55o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
