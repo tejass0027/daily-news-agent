@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 16",
+  "dateSub": "WEDNESDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "EU chief backs plan for Canada to become *'associate* member'",
+      "desc": "Canada is seeking closer ties with EU after a breakdown in relations with the US and its president…",
+      "link": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Scientists “truly *astonished”* by discovery that challenges Earth’s origin story",
+      "desc": "A new study suggests Earth formed almost entirely from material in the inner Solar System,…\nIf correct, Earth’s water may have been present much closer to the young Sun than scientists…",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260915232132.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Ahead of Market: 10 things that will decide stock market action on Thursday\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Microsoft says AI rival Anthropic could have *'disastrous* impact' on humanity",
+      "desc": "Mustafa Suleyman says he believes the AI giant is in effect teaching Claude it \"may be conscious\".",
+      "link": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "'Let's go, let's go' - inside *catastrophic* derby VAR mistake",
+      "desc": "The controversy surrounding the VAR decision to allow Erling Haaland's winner in the Manchester…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck4gjr5vly99o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
