@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 17",
+  "dateSub": "THURSDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Canada welcomes EU proposal to become *'associate* member'",
+      "desc": "Canadian Prime Minister Mark Carney said a Canada-EU alliance would create a \"beacon for other…",
+      "link": "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Scientists discover a *mysterious* new frog hiding in the Amazon",
+      "desc": "Scientists discovered a new frog species in the flooded forests of the western Amazon,…\nAdenomera varcena highlights how much Amazonian biodiversity remains hidden even as habitat loss…",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260917003737.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Ahead of Market: 10 things that will decide stock market action on Friday\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "King Charles warns of *'existential* danger' of AI falling into wrong hands",
+      "desc": "The comments were made at a summit in Ayrshire with participants from AI giants including Nvidia,…",
+      "link": "https://www.bbc.co.uk/news/articles/c65ymj7njvl7o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "The big *questions* for Tuchel's first England squad since World Cup",
+      "desc": "Before Thomas Tuchel names his first squad since the World Cup on Friday, BBC Sport looks at the…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq804jkle8j3o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
