@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 18",
+  "dateSub": "FRIDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Russian hybrid attacks against Europe *intensifying,* says Macron",
+      "desc": "The French president says he has tasked the government with protecting critical infrastructure and…",
+      "link": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Scientists just named a new snake after Guns N’ Roses *legend* Slash",
+      "desc": "A newly discovered snake from New Guinea has been named after Guns N’ Roses guitarist Slash, who…\nGenetic testing and physical differences confirmed that the reddish-brown groundsnake, Lielaphis…\nThe nonvenomous snake may use large rear teeth to catch slippery lizards and reptile eggs.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260918024816.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Global Markets: French bond spread at highest since 2012 as default insurance spikes\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "The *virtual* worlds where robots are trained",
+      "desc": "Training systems that allow robots to negotiate the real world are getting more sophisticated.",
+      "link": "https://www.bbc.co.uk/news/articles/c79g0j3d4q9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Will *England* boss Tuchel 'embrace the chaos'?",
+      "desc": "After the World Cup, England boss Thomas Tuchel wanted greater control.\nTwo months on, he is keen to \"embrace the chaos\" after naming his squad for the upcoming Nations…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvrl64y9rdn9o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
