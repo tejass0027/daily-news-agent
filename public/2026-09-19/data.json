@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 19",
+  "dateSub": "SATURDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Nato welcomes *Greenland* deal as Trump says it will give US 'permanent security control'",
+      "desc": "Denmark and the US have reached an agreement after months of threats from Donald Trump to annex the…",
+      "link": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Scientists just named a new snake after Guns N’ Roses *legend* Slash",
+      "desc": "A newly discovered snake from New Guinea has been named after Guns N’ Roses guitarist Slash, who…\nGenetic testing and physical differences confirmed that the reddish-brown groundsnake, Lielaphis…\nThe nonvenomous snake may use large rear teeth to catch slippery lizards and reptile eggs.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260918024816.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Dalal Street Week Ahead: Can Nifty defend the 23,000 support zone?\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Google's Gemini AI hacked three *companies* in security test",
+      "desc": "The AI model accessed the internet and guessed credentials to three websites, a Google official…",
+      "link": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Ratcliffe 'must go' says Man Utd *Muslim* fan group",
+      "desc": "The Manchester United Muslim Supporters Club says United co-owner Sir Jim Ratcliffe \"must go\" after…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm9dw4663j9zo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
