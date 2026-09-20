@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 20",
+  "dateSub": "SUNDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Largest attack on Moscow sees Ukraine fire *hundreds* of drones, mayor says",
+      "desc": "Moscow's mayor says 450 drones were downed during the overnight barrage, in which two people died.",
+      "link": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Scientists opened a sealed *envelope* after 10 years. Gravity still didn’t make sense",
+      "desc": "A decade-long NIST experiment has produced a new measurement of the universal gravitational…\nThe discrepancy is tiny, but for one of nature’s most fundamental constants, it is large enough to…",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260920032049.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Ahead of Market: 10 things that will decide stock market action on Monday\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Not all AI workers think the tech could kill *everyone*",
+      "desc": "In text exchanges and conversations, multiple people who have worked for leading companies are…",
+      "link": "https://www.bbc.co.uk/news/articles/cm5y7qj54klpo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "GB's *Backstedt* wins world time-trial silver",
+      "desc": "Britain's Zoe Backstedt, 21, wins silver in the women's time trial behind Switzerland's Marlen…",
+      "link": "https://www.bbc.co.uk/sport/cycling/articles/c6pwlp5wd7n7o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
