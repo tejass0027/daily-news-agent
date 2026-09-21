@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 21",
+  "dateSub": "MONDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Yemenis flee across Red Sea as Houthis and *Saudi-backed* forces escalate war",
+      "desc": "The BBC's Frank Gardner speaks to some of those who have fled the war by crossing the Red Sea to…",
+      "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "NASA just powered up Roman’s massive *300-megapixel* camera",
+      "desc": "NASA’s Roman Space Telescope has successfully activated its 300-megapixel infrared camera, which…\nIts planet-hunting coronagraph is also working as expected, putting Roman another major step closer…",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260921081058.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: AMD briefly tops $1 trillion market cap as AI push fuels record rally, shares up 9%\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Not all AI workers think the tech could kill *everyone*",
+      "desc": "In text exchanges and conversations, multiple people who have worked for leading companies are…",
+      "link": "https://www.bbc.co.uk/news/articles/cm5y7qj54klpo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Was *Neville* right to call out Man Utd for a 'lack of effort'?",
+      "desc": "Was Gary Neville right to call out Manchester United for a \"lack of effort\" in their 1-1 draw at…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqrl6pe56348o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
