@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 24",
+  "dateSub": "THURSDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "White House *restores* access to media outlets banned by Trump after judge's order",
+      "desc": "CNN, Politico and MS NOW were allowed back into the White House after some of their staff were…",
+      "link": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "ADHD and autism *diagnoses* have surged. A massive study may help explain why",
+      "desc": "A large Danish study found that children diagnosed with ADHD or autism today more closely resemble…\nThe shift suggests that rising diagnosis rates may partly reflect broader identification and…",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260924020353.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Sebi revamps accredited investors framework; approves common ad code for mkt…\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Rogue OpenAI agent *'infiltrated'* Australian government website in world first",
+      "desc": "Australia criticised OpenAI for taking \"too long\" to tell them about the breach which happened in…",
+      "link": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Drinking at *football* matches - would fans welcome it?",
+      "desc": "Andy Burnham has long championed a repeal of the ban which prevents football supporters from…\nBut do fans even want it?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq1kx140gwlzo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
