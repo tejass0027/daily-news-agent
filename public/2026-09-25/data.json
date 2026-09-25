@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 25",
+  "dateSub": "FRIDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Special agents' blood and urine test *results* stolen in FBI hack",
+      "desc": "Experts say the hack could leave agents vulnerable to scams, blackmail and targeted attacks.",
+      "link": "https://www.bbc.co.uk/news/articles/cw62me2vlj07o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "CERN has begun *disconnecting* the Large Hadron Collider",
+      "desc": "CERN has started replacing some of the Large Hadron Collider’s most important magnets as part of…\nThe new superconducting magnets will produce fields about 40% stronger, allowing particle beams to…\nThat should create far more collisions for the ATLAS and CMS experiments to analyze, giving…",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260925005430.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: CleanMax Enviro block deal: Augment India Holdings likely to divest 85 lakh shares worth…\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Special agents' blood and urine test *results* stolen in FBI hack",
+      "desc": "Experts say the hack could leave agents vulnerable to scams, blackmail and targeted attacks.",
+      "link": "https://www.bbc.co.uk/news/articles/cw62me2vlj07o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Man City and the 115 charges - key *questions* answered",
+      "desc": "It has taken more than two years, but a judgement finally appears to have been made on the 115…\nHere's what it means.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx30540044q0o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
