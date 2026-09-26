@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 26",
+  "dateSub": "SATURDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Trump *rejects* Iran deal to reopen Strait of Hormuz in seven days",
+      "desc": "The US president says Tehran had only put forward the proposal because it is losing the war.",
+      "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Zepbound and Mounjaro may turn on the body’s *calorie-burning* brown fat",
+      "desc": "Tirzepatide, sold as Mounjaro and Zepbound, activated calorie-burning brown fat in obese mice,…\nIf confirmed in humans, the finding could help explain the drug’s powerful benefits and inspire…",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260925093210.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Same playbook, different numbers: Why FPI selling may not be the story it looks like\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "OpenAI bots meddled with multiple US *government* agency sites",
+      "desc": "OpenAI said its bots accessed public data from a range of institutions during test exercises.",
+      "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Man City chairman *confident* club will prove innocence",
+      "desc": "Manchester City chairman Khaldoon Al Mubarak says he is still confident of proving the club's…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6d944ylqkkeo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
