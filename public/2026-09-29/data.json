@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 29",
+  "dateSub": "TUESDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Inside Yemen's *front-line* city as Houthis battle for control",
+      "desc": "In rare access to Yemen's conflict zone the BBC travels to the front line with pro-government…",
+      "link": "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Is the *universe* infinite? The answer gets weird fast",
+      "desc": "Measurements of ancient light from the cosmic microwave background suggest that the universe is…\nBut that does not prove it is infinite, because the observable cosmos could be only a small patch…\nSpace could even be flat while wrapping around on itself in exotic ways.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260927225041.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Gold tumbles 4% to seven-week low as oil, dollar and yields climb\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Apple ordered to pay $5.7bn after losing *vibration* tech patent suit",
+      "desc": "Audio firm Taction Technology claimed Apple infringed its patents for tech used to power device…",
+      "link": "https://www.bbc.co.uk/news/articles/c6je85n2vyleo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Man City CEO *defiant* over Premier League charges",
+      "desc": "Manchester City chief executive Ferran Soriano issues a defiant message to other club executives…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckz7zxzdwl7lo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
