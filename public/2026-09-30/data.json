@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "SEP 30",
+  "dateSub": "WEDNESDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "What we know about *stabbing* on Flydubai flight to Israel",
+      "desc": "The captain and first officer were injured, and one pilot has been arrested, officials say.",
+      "link": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Watch Live: NASA’s Crew-13 could make the *fastest* U.S. trip to the ISS ever",
+      "desc": "NASA’s SpaceX Crew-13 mission is scheduled to launch four astronauts to the International Space…\nThe Dragon could reach the orbiting laboratory in just 7 hours and 50 minutes, making it the…\nspacecraft journey to the ISS in history.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260930020312.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: US crude oil output rose in July, while petroleum demand declined, EIA says\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Regulating AI 'not the right place to start' says *Bailey*",
+      "desc": "AI needs \"rigorous\" testing and safeguards to contain risk, Andrew Bailey says.",
+      "link": "https://www.bbc.co.uk/news/articles/cvzez7k0pn40o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Burnham 'really *concerned'* if Man City owners sell up after rule breaches",
+      "desc": "The prime minister compares the allegations against Manchester City to the plight of his own club…",
+      "link": "https://www.bbc.co.uk/news/articles/crkgwvv8xvw0o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
