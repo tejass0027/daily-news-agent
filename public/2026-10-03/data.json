@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "OCT 03",
+  "dateSub": "SATURDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Tennessee prison chief to resign after Christa Pike's failed *execution,* governor says",
+      "desc": "Pike survived two lethal injections on Wednesday and is currently in critical condition in hospital.",
+      "link": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "This *protective* enzyme could help stop fatty liver disease from getting worse",
+      "desc": "Scientists have identified an enzyme that may act as a natural defense against the worsening of…\nThe enzyme, called UBE2N, helps liver cells clear away damaged mitochondria and break down fat,…",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261002080020.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: 7 investing lessons from Jim Leitner for building the right market mindset\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "OpenAI fires workers for *'mishandling* sensitive information'",
+      "desc": "The former employees were investigated for sharing data with an outside AI evaluation group.",
+      "link": "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "'Incredible' Red Bull upgrade *enlivens* F1 in Malaysia",
+      "desc": "Even Lewis Hamilton fears Max Verstappen will be tough to beat in Sunday's Bahrain Grand Prix in…",
+      "link": "https://www.bbc.co.uk/sport/formula1/articles/c5vgj31224kmo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
