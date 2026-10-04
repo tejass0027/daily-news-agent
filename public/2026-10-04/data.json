@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "OCT 04",
+  "dateSub": "SUNDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Kyiv bridge hit in further Russian drone attack as German *chancellor* makes surprise visit",
+      "desc": "Footage shows a drone hitting the Pivnichyi (Northern) Bridge as vehicles move across it, creating…",
+      "link": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Scientists find a *surprising* clue to why the universe’s expansion doesn’t add up",
+      "desc": "Tiny magnetic fields created shortly after the Big Bang may help explain the long-running…\nDetailed simulations show that these primordial fields could have changed the formation of hydrogen…",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261002080026.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Ahead of Market: 10 things that will decide stock market action on Monday\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "OpenAI fires workers for *'mishandling* sensitive information'",
+      "desc": "The former employees were investigated for sharing data with an outside AI evaluation group.",
+      "link": "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Verstappen wins in *Malaysia* after long delays as Russell retires",
+      "desc": "Max Verstappen takes his and Red Bull's first win of the year with a dominant drive in a dramatic…",
+      "link": "https://www.bbc.co.uk/sport/formula1/articles/c5n49zx3zlvwo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
