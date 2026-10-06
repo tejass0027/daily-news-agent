@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "OCT 07",
+  "dateSub": "WEDNESDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Former German spy chief arrested for *espionage* and treason",
+      "desc": "August Hanning is accused of obtaining classified information for a foreign power.",
+      "link": "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Don't miss: Watch Saturn shine and *Halley’s* Comet debris streak across the sky",
+      "desc": "October skywatchers can see Saturn at opposition, catch meteors from Halley’s Comet during the…\nMoonlight may obscure some Orionids, but the best viewing should come before dawn after the Moon…",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261005071523.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: US EIA lifts Brent forecast to $98 as Iran war tightens global supplies\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Asos confirms hackers sent *'unauthorised'* notification to app users",
+      "desc": "Asos confirmed an \"unauthorised customer notification\" was sent out via its app on Tuesday, after…",
+      "link": "https://www.bbc.co.uk/news/articles/cj62ylzpr6d3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Rival clubs want *retrospective* and future punishments for Man City",
+      "desc": "A number of Premier League clubs want Manchester City to be hit with both retrospective punishments…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c623d8707k5lo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
