@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "OCT 08",
+  "dateSub": "THURSDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "France halts use of stun *grenades* after boy's hand blown off in student protests",
+      "desc": "The step comes after several groups complained of police using disproportionate force towards…",
+      "link": "https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "NASA’s Webb finds signs of *Mars-sized* worlds smashing together",
+      "desc": "NASA’s James Webb Space Telescope is giving astronomers a glimpse of the kinds of violent…\nBy studying 21 rare “extreme debris disks” around young stars, researchers found that their dust…",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261007042108.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: US Fed minutes show members backing another rate hike before year-end\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Rainmakers: The *drones* used to seed clouds",
+      "desc": "Cloud seeding is gaining attention as countries look to boost rainfall - will drones help?",
+      "link": "https://www.bbc.co.uk/news/articles/c64g71j4lgyjo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Ex-Spurs player Vega set to run for Fifa *president*",
+      "desc": "Former Tottenham defender Ramon Vega says he intends to run in next year's Fifa presidential…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c607397pjv37o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
