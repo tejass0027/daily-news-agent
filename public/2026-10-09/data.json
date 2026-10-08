@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "OCT 09",
+  "dateSub": "FRIDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Russian strike on buses kills at least 30, say *officials,* as deadly attacks on Ukraine surge",
+      "desc": "Ukraine accused Russia of targeting two crowded vehicles in the front line city of Kramatorsk to…",
+      "link": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "NASA is *searching* for hidden caves to build its first Moon base",
+      "desc": "NASA is preparing for humanity’s first Moon base with three investigations that will hunt for…\nThe findings could reveal how astronauts can survive and thrive on the Moon while laying the…",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261008005247.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: US 30-year fixed-rate mortgage rate hits 7.40%, likely to further erode housing demand\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "White House blocks *Microsoft* from foreign worker hiring program",
+      "desc": "An international visa program has for years allowed US tech companies to hire highly skilled…",
+      "link": "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Maresca says 'feeling is *fantastic'* among Man City squad",
+      "desc": "Manchester City head coach Enzo Maresca says the \"feeling is fantastic\" among his players and that…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6n4ex2lgg2ko?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
