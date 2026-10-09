@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "OCT 10",
+  "dateSub": "SATURDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "US unveils *sanctions* on ICC in move court condemns as 'assault on rule of law'",
+      "desc": "Several member states of the international tribunal, including the UK, say they \"strongly disagree\"…",
+      "link": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "NASA *astronauts* splash down after 100 million miles in space",
+      "desc": "NASA’s SpaceX Crew-12 astronauts have returned to Earth after 237 days in space, traveling more…\nThe mission also made history with record-setting spacewalk achievements and experiments that could…",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261008232629.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: US bull market nears fourth anniversary, but narrow rally raises risks\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Prize-winning image which sparked backlash was *AI-generated,* Nikon rules",
+      "desc": "The camera-maker says it is now re-evaluating the rules and procedures of its Small World in Motion…",
+      "link": "https://www.bbc.co.uk/news/articles/cr86z33pdy9vo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "What *reception* awaits Man City at Anfield?",
+      "desc": "Bus welcomes, banners and flags expected as Man City head to Liverpool on Sunday for their first…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cjkgey07lq15o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
