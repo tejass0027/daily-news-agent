@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "OCT 11",
+  "dateSub": "SUNDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Saudi *Arabia's* Riyadh airport hit by second Houthi strike in two days",
+      "desc": "The Yemeni group says it carried out attacks that killed 13 people over the weekend and targeted…",
+      "link": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "NASA *astronauts* splash down after 100 million miles in space",
+      "desc": "NASA’s SpaceX Crew-12 astronauts have returned to Earth after 237 days in space, traveling more…\nThe mission also made history with record-setting spacewalk achievements and experiments that could…",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261008232629.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Ahead of Market: 10 things that will decide D-Street action on Monday\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "King warns *malicious* online actors are evolving tactics",
+      "desc": "The King spoke of \"threats to our international order\" in a letter marking the 10th anniversary of…",
+      "link": "https://www.bbc.co.uk/news/articles/cme3xl7d18z2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Cherki sparkles but who must do more? - player ratings for *Liverpool* v Man City",
+      "desc": "How Liverpool and Man City's players rated following their Premier League match.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck87z1jjynyqo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
