@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "OCT 13",
+  "dateSub": "TUESDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Six *Ukrainian* energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+      "desc": "Despite the US president announcing energy infrastructure would not be targeted strikes have…",
+      "link": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Scientists discover vanilla’s hidden healing *potential*",
+      "desc": "Scientists have discovered that vanillin, the compound that gives vanilla its distinctive flavor,…\nThe inexpensive, widely available ingredient could one day become an important component of…",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261011211550.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: US stocks: Nasdaq ends lower as oil prices surge ahead of earnings, economic data\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "AI *minister* warns 'likely' UK's cyber defences will be breached",
+      "desc": "Kanishka Narayan said the government will use advanced AI to strengthen the UK against cyber…",
+      "link": "https://www.bbc.co.uk/news/articles/cr78pe09y05xo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Hincapie and *Zubimendi* injured in post-match training session",
+      "desc": "Arsenal manager Mikel Arteta says it is \"far from ideal\" that Piero Hincapie and Martin Zubimendi…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmq5nzn8ww98o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
