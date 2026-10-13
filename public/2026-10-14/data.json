@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "OCT 14",
+  "dateSub": "WEDNESDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "MI5 chief warns of *threats* to UK from Russia, Iran and AI",
+      "desc": "Sir Ken McCallum says operations to tackle terrorism and state threats are now roughly of an \"equal…",
+      "link": "https://www.bbc.co.uk/news/articles/c60rl5vwpk02o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "James Webb reveals a massive cosmic structure that challenges our *understanding* of the Universe",
+      "desc": "NASA’s James Webb Space Telescope has revealed an ancient galaxy cluster with an unexpectedly dense…\nThe discovery also uncovered a surprising connection between scattered starlight and invisible dark…",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: NY Fed President Williams sees no need for a rate hike in 2027\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Bumble bought for $1.3bn in 'bet on the future of *humanity'*",
+      "desc": "The dating app which recently ditched its \"women-first\" chat rule has been bought by an investment…",
+      "link": "https://www.bbc.co.uk/news/articles/cm9qzwjgnjxlo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "A *'landmark'* moment - why has Rwanda been chosen to host F1?",
+      "desc": "How Rwanda has succeeded where Morocco and South Africa, among others, have failed by agreeing a…",
+      "link": "https://www.bbc.co.uk/sport/formula1/articles/cw62yglre6y5o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
