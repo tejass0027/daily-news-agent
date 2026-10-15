@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "OCT 15",
+  "dateSub": "THURSDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Trump calls off *livestream* of Fort Hood attacker's execution by firing squad",
+      "desc": "Trump said some would \"rather not watch\" the killing of Nidal Hasan, the first military execution…",
+      "link": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Arctic sea ice hits another *troubling* low in 2026",
+      "desc": "Arctic sea ice is shrinking in both winter and summer, with satellite records revealing that the…\nDespite a recent slowdown in summer losses, scientists warn that the Arctic could experience a…",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261015073212.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Sebi writes to IRDAI to include investors' insurance policy details in consolidated…\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "GTA 6 - all you need to know about Rockstar's *blockbuster* game",
+      "desc": "A new launch trailer for Grand Theft Auto VI reveals more details about what's set to be the…",
+      "link": "https://www.bbc.co.uk/news/articles/c9q20djz4wno?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Infantino *apologises* to Fifa Council - but told he is still not fit to lead",
+      "desc": "President Gianni Infantino apologises to the Fifa Council for his World Cup sell-off plan - but is…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmd7qgj3zwero?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
