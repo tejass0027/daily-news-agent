@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "OCT 16",
+  "dateSub": "FRIDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Inside *Ukrainian* offensive pushing Russia back - with Starlink playing a key role",
+      "desc": "The BBC joins Ukraine's Operation Vivaldi as it regains crucial territory in the Donbas, but…",
+      "link": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "“Crawzilla” was huge. Then *scientists* found an even bigger crayfish",
+      "desc": "A nationwide search for giant crayfish uncovered a record-breaking Tennessee specimen and a…\nScientists found that North American crayfish seem to hit a biological size limit, possibly because…",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261015073220.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: CoreWeave stock wipeout exposes divide between AI fear and greed\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Russian man linked to deadly London *hospitals* hack arrested",
+      "desc": "The 28-year-old detained by German police is accused of being part of the cyber-crime gang that…",
+      "link": "https://www.bbc.co.uk/news/articles/c9vgr61kml3mo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Former Sale Sharks lock Andrews dies at team hotel in La *Rochelle*",
+      "desc": "Hyron Andrews dies at his Johannesburg Lions' team hotel before their Champions Cup match at La…",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cqdjvxynj2kyo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
