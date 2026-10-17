@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "OCT 17",
+  "dateSub": "SATURDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Trump waives several Russia sanctions as row with Zelensky *intensifies*",
+      "desc": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over…",
+      "link": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Scientists *discover* how deep sleep builds muscle, burns fat, and boosts the brain",
+      "desc": "Scientists have discovered a surprising two-way relationship between sleep and growth hormone,…\nThe findings could help explain why poor sleep harms metabolism and brain health, potentially…",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261016081140.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Central Bank of India Q2 profit rises 21% as loans grow 30%\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Toxic *algorithms* wouldn't let them go - now Australia wants an off switch",
+      "desc": "The Australian government hopes to protect social media users from being served content they don't…",
+      "link": "https://www.bbc.co.uk/news/articles/cwr7y8er1n8vo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "McDermott seeks fix as *England* fight to save their World Cup",
+      "desc": "Brian McDermott says he can fix the errors that led to England's Rugby League World Cup defeat by…",
+      "link": "https://www.bbc.co.uk/sport/rugby-league/articles/crwyqgjg5y8wo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
