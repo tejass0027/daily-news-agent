@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "OCT 18",
+  "dateSub": "SUNDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Burnt out cars and *shattered* glass on Paris streets after protests turn to riots and looting",
+      "desc": "About 1,800 people were arrested after nationwide protests saw outbreaks of violence and vandalism.",
+      "link": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Physicists create a bizarre new quantum state called a *fractional* fermi sea",
+      "desc": "Physicists have discovered a strange new state of quantum matter in which ultracold atoms defy…",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261018084644.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: DIIs increase stake in 8 midcap stocks in Q2FY27\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "No further action against *government* adviser's wife over Palestine Action post, police say",
+      "desc": "Sarah Helm, who is married to Jonathan Powell, was responding to a discussion about the author…",
+      "link": "https://www.bbc.co.uk/news/articles/cv8ez40yz950o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Everything a struggle for *Fernandes* - Leeds v Man Utd ratings",
+      "desc": "Dominic Calvert-Lewin's second-half equaliser means Manchester United have now gone six games…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckvg7v43x1xyo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
