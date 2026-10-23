@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "OCT 23",
+  "dateSub": "FRIDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Deadly shooting near Paris *investigated* as 'crime of terrorism', minister says",
+      "desc": "One person is killed and five wounded in a series of attacks and the suspected gunman has been…",
+      "link": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "One of Earth’s most powerful *supervolcanoes* is refilling with fresh magma",
+      "desc": "Deep beneath Japan’s Kikai caldera, a massive magma reservoir is refilling 7,300 years after one of…\nScientists used underwater seismic surveys to reveal a vast store of magma that appears to have…\nThe discovery could help explain how supervolcanoes like Yellowstone and Toba rebuild their magma…",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261023003214.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: EAAA India Alternatives mops up Rs 360 crore from anchor investors; IPO opens on Oct 26\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "What is PHP and why did it spark a global *cyber-security* scramble?",
+      "desc": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
+      "link": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Kompany taken to hospital after *collapsing* at training",
+      "desc": "Bayern Munich manager Vincent Kompany is taken to hospital after collapsing as he watched the…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck3r5792en7go?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
