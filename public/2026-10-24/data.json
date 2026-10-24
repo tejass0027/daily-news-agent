@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "OCT 24",
+  "dateSub": "SATURDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Ukraine says Starlink *connection* 'now stable' after network limits",
+      "desc": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week.",
+      "link": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "A hidden bias in human language *challenges* 70 years of science",
+      "desc": "A groundbreaking study challenges 70 years of assumptions about how human language works.\nBy analyzing billions of word uses, scientists discovered that meaning is organized around power,…\nEven more surprisingly, human language shows a powerful hidden preference for safety, suggesting…",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261023023738.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: AU Small Finance Bank Q2 profit jumps 53% to Rs 858 crore\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "UK to invest £100m in 'world first' AI *Biosecurity* Lab",
+      "desc": "The chancellor will unveil AI spending aimed at shoring up the UK's defences in Wednesday's Budget.",
+      "link": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Man City's leaky defence *highlights* Donnarumma & Guehi struggles",
+      "desc": "Manchester City's 100% winning start to the Premier League season comes to an abrupt end against…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6kg7z700k7jo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
