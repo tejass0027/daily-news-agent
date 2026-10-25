@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "OCT 25",
+  "dateSub": "SUNDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Israel to close West Bank *crossings* on election day as crackdown escalates",
+      "desc": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the…",
+      "link": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Low-dose aspirin linked to 70% lower *dementia* risk, but there's a catch",
+      "desc": "A common, inexpensive medication could hold an unexpected clue to preventing dementia.\nResearchers found that older adults with a specific genetic profile had a 70% lower relative risk…\nThe discovery suggests that genetics could help explain why some people benefit while others do not.",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261024222026.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Ahead of Market: 10 things that will decide stock market action on Monday\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "UK to invest £100m in 'world first' AI *Biosecurity* Lab",
+      "desc": "The chancellor will unveil AI spending aimed at shoring up the UK's defences in Wednesday's Budget.",
+      "link": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Fernandes left out - Man Utd hammered, *Bournemouth* brilliant - how they rated",
+      "desc": "Another catastrophic day for Manchester United and a glorious one for Bournemouth - how did the…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9ly0mz745dno?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
