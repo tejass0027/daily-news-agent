@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "OCT 29",
+  "dateSub": "THURSDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Netanyahu's bloc leading Israel *election* but short of majority, partial results show",
+      "desc": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the…",
+      "link": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "The autistic brain processes faces *differently* than scientists thought",
+      "desc": "A major new study reveals that autistic children’s brains process faces differently, and those…\nResearchers found that brain signals associated with recognizing faces become more specialized as…\nThe discovery could help explain why some autistic people have difficulty recognizing faces and…",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261027063824.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: US Federal Reserve holds interest rates steady as stubborn inflation puts future rate…\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "'An annoying buzz': The search for *stealthier* drones",
+      "desc": "As drone deliveries become more commonplace, their makers are looking for ways to make them quieter.",
+      "link": "https://www.bbc.co.uk/news/articles/ck1exgejq3xvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Carrick and Fernandes hold *clear-the-air* talks",
+      "desc": "Manchester United head coach Michael Carrick and captain Bruno Fernandes hold clear-the-air talks…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cje36dn5nx36o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
