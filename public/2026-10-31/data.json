@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "OCT 31",
+  "dateSub": "SATURDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Ukrainian evacuees reunite with family after years trapped in *Russia-occupied* city",
+      "desc": "Oleshky residents had been without food, water and electricity, with many resorting to cooking…",
+      "link": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "A *mysterious* 4,000-year-old wall is rewriting North Africa’s history",
+      "desc": "A remarkable 4,000-year-old defensive structure discovered in Morocco is rewriting what scientists…\nThe massive fortifications reveal unexpectedly sophisticated prehistoric societies and suggest that…",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261030003022.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Muthoot Finance Q2 cons profit jumps 36% YoY to Rs 3,278 crore\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Why North Korea's 'elite' *hackers* are the prime suspect in major Binance hack",
+      "desc": "If the accusations are true, the record-making heist shows how powerful suspected North Korean…",
+      "link": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Martinez's *'inexplicable'* 83 seconds cost Man Utd and Carrick",
+      "desc": "Manchester United defender Lisandro Martinez condemned for costly red card in 2-0 defeat to Chelsea…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckvg64xp1e1eo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
