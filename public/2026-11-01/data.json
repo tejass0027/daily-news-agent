@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 01",
+  "dateSub": "SUNDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Shops looted as German *cost-of-living* protests turn violent",
+      "desc": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same…",
+      "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Scientists say a *forgotten* particle may explain why the universe exists",
+      "desc": "A mysterious particle overlooked for decades may hold the key to why matter survived the Big Bang,…\nScientists believe this forgotten neutrino reshaped the early universe and may have left detectable…",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261031221201.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Ahead of Market: 10 things that will decide stock market action on Monday\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "These firms you've never heard of are *feeding* fears the AI bubble could burst",
+      "desc": "The amount of debt held by data centres is measured in the tens of billions of pounds.",
+      "link": "https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Are Celtic club in *regression* amid run of six defeats in 10?",
+      "desc": "Chris Sutton and Ian McCall weigh in on Celtic after a second league defeat of the season, but…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmvg7d1xl8epo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
