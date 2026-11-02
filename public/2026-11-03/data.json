@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 03",
+  "dateSub": "TUESDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Russian *bombing* kills 26 people at Ukraine aid centre, Kyiv says",
+      "desc": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the…",
+      "link": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "NASA reveals a haunting skull hidden in *Antarctica’s* ice",
+      "desc": "NASA satellites have captured an eerie, skull-shaped formation on a remote Antarctic island, but…\nUnusually warm winter temperatures have exposed large areas of dark ice, potentially accelerating…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261101010538.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: US stocks today: Nasdaq ends over 1% lower as AI worries persist\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "If hackers can take control of a *supermarket* freezer, how vulnerable is other tech?",
+      "desc": "Dozens of shops across European countries have been hit by a cyber-attack affecting their fridges.",
+      "link": "https://www.bbc.co.uk/news/articles/ckpqg8lve73go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Carrick says it's 'crazy' but he's *looking* forward to Roma game",
+      "desc": "Under-pressure Michael Carrick says it might be \"crazy\" but he is looking forward to Manchester…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c933x04ryz4do?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
