@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 04",
+  "dateSub": "WEDNESDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Seven flights across Europe targeted by *suspected* bomb threats",
+      "desc": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate…",
+      "link": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "NASA smashed into an *asteroid.* Now Hera is closing in to see what happened",
+      "desc": "Europe’s Hera spacecraft has captured its first clear view of two asteroids involved in NASA’s…\nNow approaching the pair, Hera will investigate the mysterious aftermath of the collision and…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Taco Bell sales fall more than expected on cyclosporiasis outbreak hit\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Binance says fake job *interviews* used as part of $6.3bn crypto hack",
+      "desc": "An engineer was contacted through a legitimate job-hunting platform and invited to bogus job…",
+      "link": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Tenerife striker De Miguel dies after on-field *collision*",
+      "desc": "Tenerife forward Jesus de Miguel dies aged 30 after an on-field collision during a Spanish…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
