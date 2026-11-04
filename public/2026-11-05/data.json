@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 05",
+  "dateSub": "THURSDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "'This is a disaster': Angry *Republicans* blame Trump for midterms defeat",
+      "desc": "Some Republicans tell the BBC the president's focus on his legacy and indifference to voter…",
+      "link": "https://www.bbc.co.uk/news/articles/c6x29rr8djy3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "SLAC *scientists* find conclusive proof of a mysterious third type of magnetism",
+      "desc": "For nearly 90 years, scientists believed magnetism fell into just two categories, but researchers…\nUsing specialized X-rays, they uncovered a unique magnetic signature that proves these materials…\nAltermagnets combine stability with the ability to efficiently carry information, potentially…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261104012256.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Bitcoin rebounds with stocks despite threat to crypto agenda\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "French blood storage *impacted* by freezer hacks as theories swirl about culprits",
+      "desc": "The French Blood Establishment (EFS) said cold rooms storing blood were impacted by hackers.",
+      "link": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "An island in mourning: Tenerife *processes* death of De Miguel",
+      "desc": "Tenerife football club and the wider football community mourn the loss of footballer Jesus de…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckx2qz97gz3no?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
