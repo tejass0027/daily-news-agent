@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 06",
+  "dateSub": "FRIDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Hoax bomb threats target *European* airlines and airports for second time in a week",
+      "desc": "At least 21 flights across Europe are affected in what the UK government calls a \"malicious hoax…",
+      "link": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "SLAC *scientists* find conclusive proof of a mysterious third type of magnetism",
+      "desc": "For nearly 90 years, scientists believed magnetism fell into just two categories, but researchers…\nUsing specialized X-rays, they uncovered a unique magnetic signature that proves these materials…\nAltermagnets combine stability with the ability to efficiently carry information, potentially…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261104012256.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: JP Morgan to add Philippines and Saudi Arabia to key EM bond index over 10 months\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Shares in Musk's *SpaceX* plunge as tech and AI stocks fall",
+      "desc": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI…",
+      "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "A bitter end for Ronaldo - the icon who *transformed* Portugal",
+      "desc": "As Cristiano Ronaldo retires from international football, Guillem Balague looks at why and what is…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckn9rwr2zzpvo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
