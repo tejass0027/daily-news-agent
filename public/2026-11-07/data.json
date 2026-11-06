@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 07",
+  "dateSub": "SATURDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "AI stocks climb after *trillions* wiped from market values",
+      "desc": "Investors had been selling off tech shares in part due to concerns the Democrat election victory…",
+      "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Don't miss: Meteor showers, *fireballs,* and a supermoon light up November's night sky",
+      "desc": "November's night sky is packed with celestial wonders, from bright meteor fireballs and a close…\nMeanwhile, NASA's Voyager 1 is making history by becoming the first spacecraft to reach a distance…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261105224547.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: US stocks today: Nasdaq rebounds as chip stocks recover from steep losses, rate fears…\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "AI stocks climb after *trillions* wiped from market values",
+      "desc": "Investors had been selling off tech shares in part due to concerns the Democrat election victory…",
+      "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Is *Palmer's* England career over under Tuchel?",
+      "desc": "Cole Palmer faces a fight to save his England career after he was excluded from Thomas Tuchel's…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9e8ll62rp68o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
