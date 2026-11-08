@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 08",
+  "dateSub": "SUNDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Surgeon having lunch near Krakow shooting *undoubtedly* saved officer's life, colleague says",
+      "desc": "Further details have emerged about two police officers hailed for preventing a Polish gunman from…",
+      "link": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "A hidden limit of space and time could unlock *electronics* 100,000 times faster",
+      "desc": "Scientists have discovered a surprising quantum limit that prevents electrons from being tracked…\nThe breakthrough could pave the way for manipulating chemical reactions and developing electronics…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261106174537.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Lower crude, global stability to drive market growth in new Samvat: ANMI President…\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Government 'looking *seriously'* at banning under-16s from Vinted and eBay",
+      "desc": "The culture secretary confirms reports they could be in the list of platforms set to be banned next…",
+      "link": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "The FA Cup",
+      "desc": "Jason Mohammad presents highlights from the first round of the FA Cup.",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbctwo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
