@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 11",
+  "dateSub": "WEDNESDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "First day of Ukraine peace talks *constructive,* Zelensky says",
+      "desc": "Delegations from Kyiv, Washington and Moscow are in the United Arab Emirates for the first…",
+      "link": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Alzheimer’s may have early *warning* signs outside the brain",
+      "desc": "A surprising discovery suggests that some early signs of Alzheimer’s disease may begin outside the…\nUsing miniature laboratory systems made from human cells, scientists found that genetic mutations…\nThis could help explain why some patients experience changes in balance, walking, and coordination…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261108233103.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: US stocks: Five things to know about Anthropic\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Claude chatbot maker set for $1.3tn stock market debut despite *'catastrophic'* AI warning",
+      "desc": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78, which is…",
+      "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "The Monaco summit that will decide the future of *Carrick* and Man Utd",
+      "desc": "Manchester United's power brokers meet in Monaco on Wednesday to decide whether Michael Carrick…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8wy9yzyzxnko?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
