@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 12",
+  "dateSub": "THURSDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Spain sees *widespread* disruption in first general strike for 14 years",
+      "desc": "Protests are also expected in the biggest cities less than three weeks before Spaniards vote in…",
+      "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Where are all the males? Ancient human fossils reveal a *startling* mystery",
+      "desc": "A remarkable discovery in a South African cave suggests that an extinct human relative may have…\nScientists analyzed ancient proteins preserved in Homo naledi teeth and found no male-specific…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261110042558.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Yes Bank bondholders press for compliance with Supreme Court's AT-1 order\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "New Indian mega library rocked by scandal over *'AI-generated* books'",
+      "desc": "The Tamil Nadu government has ordered an internal audit of library collections across the state.",
+      "link": "https://www.bbc.co.uk/news/articles/c54gne3plvrxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Pochettino a decade in Man Utd's making - but Carrick *deserves* better",
+      "desc": "Mauricio Pochettino looks set to turn a decade-long courtship with Man Utd into a full-blown…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwzd9pvjy426o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
