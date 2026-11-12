@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 13",
+  "dateSub": "FRIDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "US envoys head to meet *Zelensky* after talks with Putin in Moscow",
+      "desc": "US envoy Steve Witkoff says President Putin has agreed to European negotiators joining the next…",
+      "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Where are all the males? Ancient human fossils reveal a *startling* mystery",
+      "desc": "A remarkable discovery in a South African cave suggests that an extinct human relative may have…\nScientists analyzed ancient proteins preserved in Homo naledi teeth and found no male-specific…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261110042558.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Kalshi ends Donald Trump Jr's advisory contract due to Polymarket conflict\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "The rise and fall of Jensen Huang - how the tech *superstar* became mired in scandal",
+      "desc": "Within days, Huang's status as a seemingly untouchable figure leading the global tech race has…",
+      "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "How *Pochettino* came on Man Utd's radar - and what Carrick was told when",
+      "desc": "How Man Utd identified Mauricio Pochettino as their new head coach - and what happened in the week…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqdr1jlr1707o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
