@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 14",
+  "dateSub": "SATURDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Why is *Microsoft's* outage lasting so long and will emails be lost?",
+      "desc": "Microsoft says it is continuing to restore services including Outlook and Teams following a global…",
+      "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Scientists discover a hidden danger of viral *infections* that vaccines may prevent",
+      "desc": "A new study reveals that viral infections may leave behind hidden damage to the immune system long…\nResearchers found that mice recovering from an acute infection experienced lasting changes to their…\nSurprisingly, prior vaccination completely prevented these harmful changes in the mouse model.",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112025531.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Anthropic IPO share orders from China are said to be rebuffed\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Pressure grows on Trump's Commerce *Secretary* Lutnick in fallout from Nvidia scandal",
+      "desc": "Scott Bessent told CNBC that several government agencies \"were in favour of putting Megaspeed on…",
+      "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Tearful *Pochettino* on 'difficult' decision to leave USA for Man Utd",
+      "desc": "An emotional Mauricio Pochettino broke down as he explained why he was leaving the USA to take the…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmd61qne8352o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
