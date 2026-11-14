@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 15",
+  "dateSub": "SUNDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Copper wire upgrade caused *nationwide* flight suspension, US transport secretary says",
+      "desc": "The US government is trying to find out whether the chaos was caused by \"incompetence\" or faulty…",
+      "link": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Scientists find a simple daily routine linked to less pain and *depression*",
+      "desc": "A simple change to your daily routine could make a surprising difference in how you feel, both…\nUniversity of Missouri researchers found that older adults who followed consistent daily schedules…\nKeeping regular times for sleeping, eating, and other activities may help regulate the body's…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261113231624.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Yes Bank moves SC seeking review of order on writing off of Rs 8,415 cr AT-1 bonds\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Italy fines Meta €805m over *accessing* users' photos",
+      "desc": "The social media giant is accused of not informing 20 million users it had access to their photos.",
+      "link": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Magnificent Wales beat New *Zealand* for first time since 1953",
+      "desc": "Wales celebrate a first victory against New Zealand since 1953 with a brilliant 35-28 win to spark…",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c63dgev0p8pgo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
