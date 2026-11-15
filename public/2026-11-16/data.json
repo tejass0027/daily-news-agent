@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 16",
+  "dateSub": "MONDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Zelensky urges US and Musk to lift Starlink *restrictions* and be on 'right side of history'",
+      "desc": "The Ukrainian president says restrictions are still in place and making it difficult to stop…",
+      "link": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Vitamin C could help block *cancer-linked* chemicals in your stomach, study finds",
+      "desc": "Scientists have discovered that vitamin C may help prevent potentially cancer-causing chemicals…\nA new mathematical model suggests that taking vitamin C after meals could reduce these harmful…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261114202236.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Yes Bank moves SC seeking review of order on writing off of Rs 8,415 cr AT-1 bonds\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, *Megaspeed* says",
+      "desc": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite…",
+      "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Tearful McIlroy dedicates *record-equalling* win to ill dad",
+      "desc": "Rory McIlroy wipes away tears as he dedicates his record-equalling eighth Race to Dubai title to…",
+      "link": "https://www.bbc.co.uk/sport/golf/articles/c6kg7rwmz1g8o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
