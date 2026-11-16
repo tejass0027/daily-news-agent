@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 17",
+  "dateSub": "TUESDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Five EU countries announce migrant *deportation* centre in Rwanda",
+      "desc": "Germany, Denmark, Austria, Greece and the Netherlands have announced a \"return hub\" for failed…",
+      "link": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "NASA smashed into an *asteroid.* Now Hera has revealed a strange new world",
+      "desc": "A European spacecraft has revealed a mysterious, crater-covered side of the asteroid Didymos as it…\nThe mission could uncover new clues about the collision and help turn asteroid deflection into a…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Interest in Trump's meme coin dinner fades as $TRUMP sinks to record lows\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Nvidia *dismisses* 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+      "desc": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his…",
+      "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "How Frank can restore *reputation* and save Crystal Palace",
+      "desc": "Will Thomas Frank - now confirmed as the new manager of Crystal Palace - rebuild his reputation at…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmge3y2qjlyro?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
