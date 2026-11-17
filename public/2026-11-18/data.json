@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 18",
+  "dateSub": "WEDNESDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Putin's Crimean Bridge partly collapses as Zelensky hails *'unprecedented'* attack by Ukraine",
+      "desc": "Ukraine says the missile and drone attack on the strategic bridge in the Russian-annexed Crimea…",
+      "link": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "NASA smashed into an *asteroid.* Now Hera has revealed a strange new world",
+      "desc": "A European spacecraft has revealed a mysterious, crater-covered side of the asteroid Didymos as it…\nThe mission could uncover new clues about the collision and help turn asteroid deflection into a…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Nike targets $5 billion more in revenue growth by 2031 in latest turnaround push\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "How new US chip *restrictions* on South East Asia will hit China",
+      "desc": "The new rules restrict chip exports and also access to their computing power, which China relies on…",
+      "link": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Rooney says he *considered* taking his own life at Man Utd",
+      "desc": "Wayne Rooney says he considered taking his own life during his playing days at Manchester United…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx1l0n3v003eo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
