@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 19",
+  "dateSub": "THURSDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Inside the old gas pipeline where Ukraine is fighting an *underground* war with Russia",
+      "desc": "Watch: The BBC's Jonathan Beale joins Ukrainian forces taking the battle below ground and out of…",
+      "link": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Bizarre deep-sea fish with a *see-through* head captured in stunning 4K",
+      "desc": "Deep-sea researchers have captured stunning new footage of an extraordinarily rare fish with a…\nKnown as the barreleye fish, this bizarre creature uses its upward-pointing eyes to spot prey…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261117033917.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Fed policymakers focused on inflation risks in October, with some seeing need for bigger…\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Grand Theft Auto 6 is a *masterpiece,* say critics",
+      "desc": "Critics have their say as to whether GTA 6, the most anticipated video game of all time, lives up…",
+      "link": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "The *sandpaper* plot - who was there, who said what?",
+      "desc": "As Cameron Bancroft's explosive allegations raise more questions about the sandpaper scandal, BBC…",
+      "link": "https://www.bbc.co.uk/sport/cricket/articles/cqwy41w3zydgo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
