@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 20",
+  "dateSub": "FRIDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Myanmar *committed* genocide against Rohingya minority, top UN court rules",
+      "desc": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that…",
+      "link": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Scientists tested 212 *plant-based* foods. Every single one contained fungal toxins",
+      "desc": "A new study has uncovered a surprising concern hiding in popular plant-based foods and drinks.\nResearchers tested 212 vegan and vegetarian products sold in the UK, including meat alternatives,…\nKnown as mycotoxins, these naturally occurring compounds can contaminate grains, legumes, and seeds…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261118073749.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: AMD shares slide 8% as report says China links could invite US scrutiny\nUS: US market update unavailable today.",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Dutch *watchdog* tells people not to buy AI smart glasses",
+      "desc": "Tests of glasses showed some misread medicine instructions or pretended to have called an ambulance",
+      "link": "https://www.bbc.co.uk/news/articles/ckq6eyrzrzy5o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Culture, defence, Fernandes - *Pochettino's* priorities at Man Utd",
+      "desc": "Culture, defence and Bruno Fernandes - the key issues facing Mauricio Pochettino as he takes over…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cxlylzyg38l8o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
