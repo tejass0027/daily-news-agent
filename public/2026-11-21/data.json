@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 21",
+  "dateSub": "SATURDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "UK to explore even closer ties with EU after *agreeing* deal, says Burnham",
+      "desc": "The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth…",
+      "link": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Two massive stars may be secretly feeding the Milky Way’s *supermassive* black hole",
+      "desc": "Astronomers have traced mysterious gas clouds near the Milky Way's central supermassive black hole…\nThese clouds may eventually feed the black hole, revealing a surprising connection between stellar…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261119194605.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Sebi proposes limiting tenure of chief executives, independent directors at exchanges\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Trump *threatens* ban on US firms building AI data centres overseas",
+      "desc": "The US president provided little detail on the potential policy, saying others in his team were…",
+      "link": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Man Utd fan *criticism* has gone too far at times - Berrada",
+      "desc": "Manchester United chief executive Omar Berrada says some of the recent criticism of the club's…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwz0k32j9kr9o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
