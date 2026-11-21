@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 22",
+  "dateSub": "SUNDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's *Streeting*",
+      "desc": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
+      "link": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Time may be far stranger than we realize. *Scientists* have a way to test it",
+      "desc": "Time may be far stranger than we realize, and scientists have proposed a way to detect clocks…\nUsing atomic clocks with dramatically enhanced sensitivity, researchers hope to reveal a…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261120075558.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Nifty eyes 26,200 as rally strengthens; 6 sectors signal outperformance\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Can AI *really* help spot Black Friday deals? We put it to the test",
+      "desc": "We put four AI models to the test to see if they could save us money on a new TV.",
+      "link": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Ireland beat world *champions* South Africa in thriller",
+      "desc": "Ireland exact revenge on world champions South Africa with a thrilling win in Dublin after…",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cqe9k2v4xjeko?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
