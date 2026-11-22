@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 23",
+  "dateSub": "MONDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "COP31 fails to reach major climate deal as talks expose deep *divisions*",
+      "desc": "The talks fail to make a breakthrough on tackling climate change after a row about mentioning…",
+      "link": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "Time may be far stranger than we realize. *Scientists* have a way to test it",
+      "desc": "Time may be far stranger than we realize, and scientists have proposed a way to detect clocks…\nUsing atomic clocks with dramatically enhanced sensitivity, researchers hope to reveal a…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261120075558.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: South Korea prepares market stabilisation funds after KOSPI hits 10-month low\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Can AI *really* help spot Black Friday deals? We put it to the test",
+      "desc": "We put four AI models to the test to see if they could save us money on a new TV.",
+      "link": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "The red card that changed *Liverpool-Man* Utd: correct call?",
+      "desc": "Leny Yoro's red card after eight minutes changed Liverpool v Manchester United - did officials make…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq7827p8emmxo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
