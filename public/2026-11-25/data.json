@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 25",
+  "dateSub": "WEDNESDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "US attorney general dodges questions about Nvidia *investigation*",
+      "desc": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's…",
+      "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "2,200-year-old Roman shipwreck reveals an ingenious *waterproofing* trick",
+      "desc": "A 2,200-year-old Roman shipwreck has revealed sophisticated waterproofing techniques involving pine…\nMicroscopic pollen grains trapped in the ancient coatings are now helping scientists reconstruct…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261123232342.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Nasdaq, S&P 500 end lower as investors assess Jensen Huang's return to Nvidia\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Huawei found guilty of stealing trade secrets but acquitted of *racketeering*",
+      "desc": "The verdict follows a months-long trial in New York.",
+      "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Pochettino leads Man Utd fury at Yoro red card *ruling*",
+      "desc": "Manchester United and Mauricio Pochettino are furious at how Leny Yoro's red card has been handled…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqzr5ylmeerlo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
