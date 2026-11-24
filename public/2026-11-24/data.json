@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 24",
+  "dateSub": "TUESDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "US to *blacklist* Asian AI firm Megaspeed after Nvidia scandal",
+      "desc": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with…",
+      "link": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "This tiny spider named after *Stephen* Colbert has a genome 50% larger than a human’s",
+      "desc": "A tiny California trapdoor spider named after Stephen Colbert has a genome roughly 50% larger than…\nScientists discovered that its enormous genome contains 4.6 billion DNA base pairs and 52…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261122060343.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: NSEL releases Rs 1,950 crore in one-time settlement, ends 14-year payment default\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "US to *blacklist* Asian AI firm Megaspeed after Nvidia scandal",
+      "desc": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with…",
+      "link": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Tarkowski's first Premier League red ruins Moyes' night - was it *deserved?*",
+      "desc": "Everton captain James Tarkowski was sent off for the first time in his Premier League career in…",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmqx5eynvpqno?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
