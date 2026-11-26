@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 27",
+  "dateSub": "FRIDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Watch: Roofs torn off and *streets* under water as severe weather hits US",
+      "desc": "Hundreds of thousands have been affected by storms in the country as the Thanksgiving holiday…",
+      "link": "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "This *345-million-year-old* fossil had scientists fooled for decades",
+      "desc": "A famous 345-million-year-old fossil has turned out to be something entirely different from what…\nAdvanced X-ray imaging revealed hidden gills and thousands of tiny teeth, exposing a primitive…\nThe discovery suggests that several adaptations associated with life on land actually evolved in…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261125045307.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: Ashiana Housing JV buys 10-acre land in Chennai for senior living project, eyes Rs 1,100…\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Musk's plan to send a million SpaceX data *satellites* into space approved",
+      "desc": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing…",
+      "link": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Fury 'never received' *schizophrenia* diagnosis",
+      "desc": "Paris Fury, the wife of Tyson Fury, says the boxer has never received a diagnosis of schizophrenia.",
+      "link": "https://www.bbc.co.uk/sport/boxing/articles/cwj3klxj10edo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
