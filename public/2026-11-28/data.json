@@ -1,0 +1,43 @@
+{
+  "handle": "@__thedailybrief__",
+  "dateMain": "NOV 28",
+  "dateSub": "SATURDAY · 2026",
+  "coverHeadline": "What you *missed* today",
+  "stories": [
+    {
+      "icon": "🌍",
+      "tag": "World",
+      "title": "Spanish PM and rivals rally *supporters* in final pitch for votes",
+      "desc": "Prime Minister Pedro Sánchez wants to defy the polls, and his main rivals accuse him of not telling…",
+      "link": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🔬",
+      "tag": "Science",
+      "title": "The narwhal’s legendary “unicorn horn” holds a remarkable *engineering* secret",
+      "desc": "The narwhal’s iconic spiral tusk, once prized in Europe as the horn of a mythical unicorn, conceals…\nUsing advanced X-ray technology, an international team of scientists discovered that the tusk…",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261126063316.htm"
+    },
+    {
+      "icon": "📈",
+      "tag": "Markets",
+      "title": "India *and* US markets today",
+      "desc": "India: OPEC+ set to keep oil production targets steady: Report\nUS: Jobless claims fall to lowest level since mid-May",
+      "link": ""
+    },
+    {
+      "icon": "💡",
+      "tag": "Tech",
+      "title": "Why is there a shortage of 'wizard' elevator *mechanics?*",
+      "desc": "The pay is good and there's lots of work, so what's behind the shortage of elevator mechanics?",
+      "link": "https://www.bbc.co.uk/news/articles/c52e8k19y94mo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "icon": "🏆",
+      "tag": "Sports",
+      "title": "Decline of *deities* - the long game the All Blacks cannot afford to lose",
+      "desc": "Statistically, this generation of All Blacks is the weakest in decades.\nHow has a sporting shorthand for success slipped so far?",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmkgkl7de60go?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
